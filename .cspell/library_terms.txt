@@ -1,0 +1,4 @@
+autoupdate
+coreax
+jumanjihouse
+vars
