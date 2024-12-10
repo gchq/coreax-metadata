@@ -26,8 +26,10 @@ repos:
       - id: check-yaml
       # Files must end in a single newline
       - id: end-of-file-fixer
+        exclude: ^(coverage|performance)/.+\.json$
       # Remove whitespace at the end of lines
       - id: trailing-whitespace
+        exclude: ^(coverage|performance)/.+\.json$
       # Prevent commit to main/master
       - id: no-commit-to-branch
       # Sort spell check custom dictionary
