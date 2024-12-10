@@ -12,3 +12,8 @@ in order to avoid an excessive number of automatic runs due to automated commits
 
 Any contributor may push directly to `main`. However, they should create a pull request
 instead to enable CI checks.
+
+Since manual commits to this repo are likely to be infrequent, pre-commit hooks are not
+updated automatically. Instead, they should be updated manually by running
+`pre-commit autoupdate` and committed to the repo before any other changes if updates
+have not been checked in the past fortnight.
